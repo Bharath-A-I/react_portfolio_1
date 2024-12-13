@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+header ul li{
+  @apply px-2;
+}
+.bg-primary{
+  background:#9381ff;
+}
+.mobile-view{
+  @apply fixed top-10 left-0 bg-gray-700 w-full h-1/4;
+}
+.mobile-nav ul li{
+  @apply w-full text-center;
+}
+.bg-secondary{
+  background:#b8b8ff
+  ;
+}
+html{
+  scroll-behavior: smooth;
+}
